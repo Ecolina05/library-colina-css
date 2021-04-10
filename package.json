@@ -2,7 +2,7 @@
   "name": "colina-css",
   "version": "1.0.0",
   "description": "Colina CSS is a CSS framework **based on utilities**.",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.32.8"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecolina05/colina-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ecolina05/colina-css/issues"
+  },
+  "homepage": "https://github.com/Ecolina05/colina-css#readme"
 }
