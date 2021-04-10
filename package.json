@@ -1,8 +1,8 @@
 {
   "name": "colina-css",
   "version": "1.0.2",
-  "description": "Colina CSS is a CSS framework **based on utilities**.",
-  "main": "index.js",
+  "description": "Colina CSS is a CSS framework based on utilities.",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
