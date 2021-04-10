@@ -1,0 +1,26 @@
+$text-xs: 0.75rem;
+$text-sm: 0.875rem;
+$text-md: 1rem;
+$text-lg: 1.125rem;
+$text-xl: 1.25rem;
+
+.text_xs {
+    font-size: $text-xs;
+    line-height: 1rem;
+}
+.text_sm {
+    font-size: $text-sm;
+    line-height: 1.25rem;
+}
+.text_md {
+    font-size: $text-md;
+    line-height: 1.5rem;
+}
+.text_lg {
+    font-size: $text-lg;
+    line-height: 1.75rem;
+}
+.text_xl {
+    font-size: $text-xl;
+    line-height: 1.75rem;
+}

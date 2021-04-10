@@ -1,0 +1,36 @@
+$borderStyle: 1.5px solid #e2e8f0;
+
+.border_none {
+    border: none;
+}
+.border_left {
+    border-left: $borderStyle;
+}
+.border_top {
+    border-top: $borderStyle;
+}
+.border_right {
+    border-right: $borderStyle;
+}
+.border_bottom {
+    border-bottom: $borderStyle;
+}
+.border_all {
+    border: $borderStyle;
+}
+
+.rounded_none {
+    border-radius: 0;
+}
+.rounded_sm {
+    border-radius: 0.2rem;
+}
+.rounded_md {
+    border-radius: 0.5rem;
+}
+.rounded_lg {
+    border-radius: 1rem;
+}
+.rounded_circle {
+    border-radius: 50%;
+}

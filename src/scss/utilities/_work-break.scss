@@ -1,0 +1,10 @@
+.break_normal {
+    overflow-wrap: normal;
+    word-break: normal;
+}
+.break_words {
+    overflow-wrap: break-word;
+}
+.break_all {
+    word-break: break-all;
+}
