@@ -1,5 +1,8 @@
 .block {
-    display: block;
+    display: block !important;
+}
+.none {
+    display: none !important;
 }
 .hidden {
     display: hidden;

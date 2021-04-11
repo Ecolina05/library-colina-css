@@ -24,3 +24,9 @@ $text-xl: 1.25rem;
     font-size: $text-xl;
     line-height: 1.75rem;
 }
+.bold {
+    font-weight: bold !important;
+}
+.no_bold {
+    font-weight: normal !important;
+}
