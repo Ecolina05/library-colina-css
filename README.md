@@ -40,12 +40,10 @@ So, open angular.json file, inside of projects → project-name → architect �
 ## Adding in React projects
 Adding Colina CSS to a react project is as easy as adding the import from the **colina.min.css** file into **index.js** file. <br>
 ```
-...
-    import ReactDom from 'react-dom';
-    import '../node_modules/colina-css/dist/css/colina.min.css'
+import ReactDom from 'react-dom';
+import '../node_modules/colina-css/dist/css/colina.min.css'
 
-    ReactDom.render(<App />, document.querySelector('#root'));
-...
+ReactDom.render(<App />, document.querySelector('#root'));
 ```
 
 ## Creator
