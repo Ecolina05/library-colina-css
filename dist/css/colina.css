@@ -1203,6 +1203,26 @@
   border: 1.5px solid #e2e8f0;
 }
 
+.dotted_left {
+  border-left: 2px dotted lightgray;
+}
+
+.dotted_top {
+  border-top: 2px dotted lightgray;
+}
+
+.dotted_right {
+  border-right: 2px dotted lightgray;
+}
+
+.dotted_bottom {
+  border-bottom: 2px dotted lightgray;
+}
+
+.dotted_all {
+  border: 2px dotted lightgray;
+}
+
 .rounded_none {
   border-radius: 0;
 }
@@ -1763,14 +1783,6 @@
   line-height: 2.5rem;
 }
 
-.bold {
-  font-weight: bold !important;
-}
-
-.no_bold {
-  font-weight: normal !important;
-}
-
 .gap_xs {
   gap: 1rem;
 }
@@ -1895,6 +1907,34 @@
   text-align: justify;
 }
 
+.bold {
+  font-weight: bold !important;
+}
+
+.no_bold {
+  font-weight: normal !important;
+}
+
+.bold_400 {
+  font-weight: 400;
+}
+
+.bold_500 {
+  font-weight: 500;
+}
+
+.bold_600 {
+  font-weight: 600;
+}
+
+.bold_700 {
+  font-weight: 700;
+}
+
+.bold_800 {
+  font-weight: 800;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -1905,6 +1945,22 @@
 
 .no_underline {
   text-decoration: none;
+}
+
+.text_normal {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.initial {
+  font-style: initial;
 }
 
 .uppercase {

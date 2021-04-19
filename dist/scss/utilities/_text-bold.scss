@@ -1,0 +1,14 @@
+$bolds: 400, 500, 600, 700, 800;
+
+.bold {
+    font-weight: bold !important;
+}
+.no_bold {
+    font-weight: normal !important;
+}
+
+@each $bold in $bolds {
+    .bold_#{$bold} {
+        font-weight: $bold;
+    }
+}

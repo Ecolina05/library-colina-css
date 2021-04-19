@@ -1,4 +1,5 @@
 $borderStyle: 1.5px solid #e2e8f0;
+$borderStyleDotted: 2px dotted lightgray;
 
 .border_none {
     border: none;
@@ -17,6 +18,22 @@ $borderStyle: 1.5px solid #e2e8f0;
 }
 .border_all {
     border: $borderStyle;
+}
+
+.dotted_left {
+    border-left: $borderStyleDotted;
+}
+.dotted_top {
+    border-top: $borderStyleDotted;
+}
+.dotted_right {
+    border-right: $borderStyleDotted;
+}
+.dotted_bottom {
+    border-bottom: $borderStyleDotted;
+}
+.dotted_all {
+    border: $borderStyleDotted;
 }
 
 .rounded_none {
