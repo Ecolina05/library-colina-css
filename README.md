@@ -1,12 +1,13 @@
 # COLINA CSS
 
-Colina CSS is a CSS framework **based on utilities**.
+Colina CSS is a CSS library **based on utilities**.
 ___
 ## Table of contents
 
 - [Quick Install](#quick-install)
 - [What's included](#whats-included)
 - [Adding in Angular projects](#adding-in-angular-projects)
+- [Adding in React projects](#adding-in-react-projects)
 - [Creator](#creator)
 
 ## Quick Install
@@ -34,6 +35,16 @@ So, open angular.json file, inside of projects → project-name → architect �
         "node_modules/colina-css/dist/css/colina.min.css",
         "src/styles.css"
     ],
+...
+```
+## Adding in React projects
+Adding Colina CSS to a react project is as easy as adding the import from the **colina.min.css** file into **index.js** file. <br>
+```
+...
+    import ReactDom from 'react-dom';
+    import '../node_modules/colina-css/dist/css/colina.min.css'
+
+    ReactDom.render(<App />, document.querySelector('#root'));
 ...
 ```
 
