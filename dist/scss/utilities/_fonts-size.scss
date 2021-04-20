@@ -5,34 +5,34 @@ $text-lg: 1.125rem;
 $text-xl: 1.25rem;
 
 .text_xs {
-    font-size: $text-xs;
+    font-size: $text-xs !important;
     line-height: 1rem;
 }
 .text_sm {
-    font-size: $text-sm;
+    font-size: $text-sm !important;
     line-height: 1.25rem;
 }
 .text_md {
-    font-size: $text-md;
+    font-size: $text-md !important;
     line-height: 1.5rem;
 }
 .text_lg {
-    font-size: $text-lg;
+    font-size: $text-lg !important;
     line-height: 1.75rem;
 }
 .text_xl {
-    font-size: $text-xl;
+    font-size: $text-xl !important;
     line-height: 1.75rem;
 }
 .text_2xl {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
     line-height: 2rem;
 }
 .text_3xl {
-    font-size: 1.875rem;
+    font-size: 1.875rem !important;
     line-height: 2.25rem;
 }
 .text_4xl {
-    font-size: 2.25rem;
+    font-size: 2.25rem !important;
     line-height: 2.5rem;
 }
