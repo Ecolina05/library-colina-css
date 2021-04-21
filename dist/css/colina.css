@@ -1616,35 +1616,35 @@
 }
 
 .cursor_auto {
-  cursor: auto;
+  cursor: auto !important;
 }
 
 .cursor_default {
-  cursor: default;
+  cursor: default !important;
 }
 
 .cursor_pointer {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .cursor_wait {
-  cursor: wait;
+  cursor: wait !important;
 }
 
 .cursor_text {
-  cursor: text;
+  cursor: text !important;
 }
 
 .cursor_move {
-  cursor: move;
+  cursor: move !important;
 }
 
 .cursor_help {
-  cursor: move;
+  cursor: move !important;
 }
 
 .cursor_disabled {
-  cursor: not-allowed;
+  cursor: not-allowed !important;
 }
 
 .block {
@@ -1656,7 +1656,7 @@
 }
 
 .hidden {
-  display: hidden;
+  display: hidden !important;
 }
 
 .inline_block {
@@ -1732,7 +1732,7 @@
 }
 
 .float_none {
-  float: none;
+  float: none !important;
 }
 
 .float_left {
@@ -1800,7 +1800,7 @@
 }
 
 .outline_none {
-  outline: none;
+  outline: none !important;
 }
 
 .outline_white {
@@ -1852,27 +1852,27 @@
 }
 
 .static {
-  position: static;
+  position: static !important;
 }
 
 .fixed {
-  position: fixed;
+  position: fixed !important;
 }
 
 .absolute {
-  position: absolute;
+  position: absolute !important;
 }
 
 .relative {
-  position: relative;
+  position: relative !important;
 }
 
 .sticky {
-  position: sticky;
+  position: sticky !important;
 }
 
 .shadow_none {
-  box-shadow: none;
+  box-shadow: none !important;
 }
 
 .shadow_sm {
@@ -1936,15 +1936,15 @@
 }
 
 .underline {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .line_through {
-  text-decoration: line-through;
+  text-decoration: line-through !important;
 }
 
 .no_underline {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .text_normal {
@@ -1980,11 +1980,11 @@
 }
 
 .visible {
-  visibility: visible;
+  visibility: visible !important;
 }
 
 .invisible {
-  visibility: hidden;
+  visibility: hidden !important;
 }
 
 .break_normal {
