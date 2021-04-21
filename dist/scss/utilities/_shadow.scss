@@ -1,9 +1,5 @@
-@mixin shadow($opacity) {
-    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, $opacity);
-}
-
 .shadow_none {
-    box-shadow: none;
+    box-shadow: none !important;
 }
 .shadow_sm {
     @include shadow(0.075);
@@ -16,4 +12,8 @@
 }
 .shadow_xl {
     @include shadow(0.5);
+}
+
+@mixin shadow($opacity) {
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, $opacity);
 }
