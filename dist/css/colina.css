@@ -752,7 +752,7 @@
 }
 
 .flex_nowrap {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .flex_row {
@@ -1640,7 +1640,7 @@
 }
 
 .cursor_help {
-  cursor: move !important;
+  cursor: help !important;
 }
 
 .cursor_disabled {
@@ -1840,7 +1840,7 @@
 }
 
 .overflow_y_hidden {
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .overflow_x_visible {
@@ -1848,7 +1848,7 @@
 }
 
 .overflow_x_hidden {
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .static {
